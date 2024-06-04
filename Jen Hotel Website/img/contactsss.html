@@ -1,0 +1,154 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Welcome">
+    <meta name="keywords" content="Hotel">
+    <script src="https://kit.fontawesome.com/e3c1d512a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>DJ's Enchanted Oasis | About</title>
+</head>
+<body>
+    <header>
+        <nav id="navbar">
+            <div class="contain bg-all">
+                <img class="hotellogo" src="../assets/logo.png" alt="logo">
+                <h1><a class="hotelname" href="./index.html">DJ's Enchanted Oasis</a></h1>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboout.html">About</a></li>
+                    <li><a class="pick" href="./contact.html">Contacts</a></li>
+                </ul>
+            </div>  
+        </nav>
+        <section id="offer-info" class="bg-oth">
+                <a href="./index.html" class="btn btn-home zoom-effect-pic">Back to Home</a>
+            <div class="hotel-info">
+                <h1><span class="text-p">CONTACT</span> Us</h1>
+            </div>
+         
+   <section id="contactss">
+                <form onsubmit="showSuccessMessage(event)">
+                <div class="contact-bg">
+                    <div id="personal-in">
+                        <h1>Personal Information</h1>
+                        <hr>
+                    <div class="per-title">
+                        <label for="checkIn" class="form-label">Check-in</label>
+                        <input type="date" class="form-control" id="checkIn" required>
+                    </div>
+                    <div class="per-title">
+                        <label for="checkOut" class="form-label">Check-out</label>
+                        <input type="date" class="form-control" id="checkOut" required>
+                    </div>
+                    <div class="per-title">
+                        <label for="rooms" class="form-label">Number of Rooms</label>
+                        <input type="number" class="form-control" id="rooms" min="1" required>
+                    </div>
+                    <div class="per-title">
+                        <label for="roomType" class="form-label">Kind of Room</label>
+                        <select class="form-control" id="roomType" required>
+                            <option value="Cabana">Cabana</option>
+                            <option value="Single room">Single Room</option>
+                            <option value="Double room">Double Room</option>
+                            <option value="Deluxe roomm">Deluxe Room</option>
+                            <option value="Presidential suite">Presidential Suite</option>
+                        </select>
+                    </div>
+                    <div class="per-title">
+                        <label for="persons" class="form-label">Number of Persons</label>
+                        <input type="number" class="form-control" id="persons" min="1" required>
+                    </div>
+                    <div class="per-title">
+                        <label for="promoCode" class="form-label">Promo Code</label>
+                        <input type="text" class="form-control" id="promoCode">
+                    </div>
+                    </div>
+                </div>
+        
+        
+                <form onsubmit="showSuccessMessage(event)">
+                <div class="contact-bg">
+                    <div id="personal-in">
+                        <h1>Personal Information</h1>
+                        <hr>
+                        <div class="mb-3">
+                            <label for="firstName" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="mobile" class="form-label">Mobile No.</label>
+                            <input type="tel" class="form-control" id="mobile" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Message for Inquiries</label>
+                            <textarea class="form-control-text" id="message" rows="4"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </form>
+          </section>
+            <div class="submit-btn">
+                <button type="submit" class="btn-submit">Submit Reservation</button>
+            </div>
+            
+            <section id="accounts">
+                
+                <div class="contact-info">
+                    <h2>Contact Information</h2>
+                    <p><i class="fas fa-phone-alt"></i> Contact Number: <a href="tel:+639484089086">+639484089086</a></p>
+                    <p><i class="fab fa-facebook"></i> Facebook Page: <a href="https://www.facebook.com/Paulas-Haven-Boutique-Hotel-Wellness-Retreat">Paula's Haven: Boutique Hotel & Wellness Retreat</a></p>
+                    <p><i class="far fa-envelope"></i> Email: <a href="mailto:abdonpaulajem@gmail.com">abdonpaulajem@gmail.com</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: Victoria, Oriental Mindoro</p>
+                </div>
+                <div class="contact-info">
+                    <h2>Address Information</h2>
+                    <p><i class="fas fa-map-marker-alt"></i> Address: Victoria, Oriental Mindoro</p>
+                <p>Paula’s Haven is strategically located in a serene countryside setting, offering a peaceful escape from city life in Victoria, Oriental Mindoro. Our target market can easily access our location for weekend retreats or longer stays, providing a convenient escape without extensive travel. </p>
+                </div>
+            </div>
+            </section>
+<div class="clr"></div>
+<footer id="main-footer">
+        <p>DJ's Enchanted Oasis &copy; 2024, All Rights Reserved</p>
+</footer>
+
+<!-- Success Modal -->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="successModalLabel">Success</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Your reservation is added successfully.
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div> 
+</div>
+
+<script>
+    function showSuccessMessage(event) {
+        event.preventDefault(); // Prevent the default form submission
+
+        // Show the success modal
+        var successModal = new bootstrap.Modal(document.getElementById('successModal'));
+        successModal.show();
+    }
+</script>
+</body>
+</html>
